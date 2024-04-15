@@ -14,7 +14,6 @@ pool:
 
 steps:
 
-- task: AzureCLI@2
   displayName: Preview Bicep Changes
   inputs:
     azureSubscription: 'Microsoft-Azure-0(a04a79d2-07b9-41a8-94f2-1b7234ad14c3)'
